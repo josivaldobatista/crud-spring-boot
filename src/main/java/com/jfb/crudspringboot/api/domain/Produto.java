@@ -17,8 +17,8 @@ public class Produto implements Serializable {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
 
-	private String name;
-	private BigDecimal price;
+	private String nome;
+	private BigDecimal preco;
 
 	public Produto() {
 	}
@@ -26,8 +26,8 @@ public class Produto implements Serializable {
 	public Produto(Integer id, String name, BigDecimal price) {
 		super();
 		this.id = id;
-		this.name = name;
-		this.price = price;
+		this.nome = name;
+		this.preco = price;
 	}
 
 	public Integer getId() {
@@ -38,20 +38,20 @@ public class Produto implements Serializable {
 		this.id = id;
 	}
 
-	public String getName() {
-		return name;
+	public String getNome() {
+		return nome;
 	}
 
-	public void setName(String name) {
-		this.name = name;
+	public void setNome(String nome) {
+		this.nome = nome;
 	}
 
-	public BigDecimal getPrice() {
-		return price;
+	public BigDecimal getPreco() {
+		return preco;
 	}
 
-	public void setPrice(BigDecimal price) {
-		this.price = price;
+	public void setPreco(BigDecimal preco) {
+		this.preco = preco;
 	}
 
 	@Override

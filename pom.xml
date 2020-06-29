@@ -40,13 +40,12 @@
 			<optional>true</optional>
 		</dependency>
 		
-		<!-- MySQL 
+		<!-- MySQL -->
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<scope>runtime</scope>
 		</dependency>
-		-->
 		
 		<!-- POSTGRES -->
 		<dependency>
