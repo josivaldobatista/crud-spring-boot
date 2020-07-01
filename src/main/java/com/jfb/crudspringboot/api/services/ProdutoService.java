@@ -3,8 +3,8 @@ package com.jfb.crudspringboot.api.services;
 import java.util.List;
 import java.util.Optional;
 
-import com.jfb.crudspringboot.api.domain.Produto;
-import com.jfb.crudspringboot.api.repositories.ProdutoRepository;
+import com.jfb.crudspringboot.api.controllers.ProdutoRepository;
+import com.jfb.crudspringboot.api.models.Produto;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

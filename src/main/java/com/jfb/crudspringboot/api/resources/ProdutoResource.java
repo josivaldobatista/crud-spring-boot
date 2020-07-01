@@ -3,7 +3,7 @@ package com.jfb.crudspringboot.api.resources;
 import java.net.URI;
 import java.util.List;
 
-import com.jfb.crudspringboot.api.domain.Produto;
+import com.jfb.crudspringboot.api.models.Produto;
 import com.jfb.crudspringboot.api.services.ProdutoService;
 
 import org.springframework.beans.factory.annotation.Autowired;

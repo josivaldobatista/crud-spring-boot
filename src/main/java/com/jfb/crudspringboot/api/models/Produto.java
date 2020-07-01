@@ -1,4 +1,4 @@
-package com.jfb.crudspringboot.api.domain;
+package com.jfb.crudspringboot.api.models;
 
 import java.io.Serializable;
 import java.math.BigDecimal;

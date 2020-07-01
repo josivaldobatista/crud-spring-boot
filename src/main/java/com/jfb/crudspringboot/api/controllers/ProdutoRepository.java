@@ -1,6 +1,6 @@
-package com.jfb.crudspringboot.api.repositories;
+package com.jfb.crudspringboot.api.controllers;
 
-import com.jfb.crudspringboot.api.domain.Produto;
+import com.jfb.crudspringboot.api.models.Produto;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
